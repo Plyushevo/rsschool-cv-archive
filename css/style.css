@@ -181,6 +181,8 @@ body {
     line-height: 1.2;
     font-weight: normal;
     color: #00242C;
+    min-width: fit-content;
+    position: relative;
 } 
 
 .wrapper {
@@ -201,6 +203,50 @@ body {
     background-color:#00242C;
     
 }
+
+.home__wrapper {
+    position: relative;
+    padding-top: 120px;
+}
+
+.home__persone {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#home__big-background-circle {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    width: 70vh;
+    height: 70vh;
+    position: relative;
+    margin: auto;
+}
+
+#home__small-background-circle-css {
+    position: relative;
+    left: 286px;
+    top: -100px;
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer styles start*/
 .footer {
