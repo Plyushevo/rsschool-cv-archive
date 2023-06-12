@@ -170,9 +170,83 @@ html {
 }
 *, *::before, *::after {
     box-sizing: inherit;
+
 }
+
+/* сделано так, чтобы при добавлени на сайт даже параграфа он унаследовал от бади стилистику сайта */
+body {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #00242C;
+} 
 
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*main styles start*/
+
+/* home styles starts*/
+
+.home {
+    position: relative;
+    min-height: 1400px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color:#00242C;
+    
+}
+
+.main__home-persone {
+    display: flex;
+}
+
+
+/* footer styles start*/
+.footer {
+    background-color: #00D1FF;
+    position: relative;
+    height: 342px;
+    left: 0px;
+}
+
+.footer__wrapper {
+    display: flex; /**/
+    flex-wrap: wrap; /* перенос контента, если строка полностью заполнится элементами они начнут наезжать друг на друга*/
+    align-items: center;
+    justify-content: center; /*выронвять по краям контейнера*/
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer__item {
+    margin-top: 132px;
+    margin-right: 74px;
+
+}
+
+.footer__item:last-child {
+    margin-right: 0px;
+}
+
+.footer__link {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.footer__link:hover, .footer__link:focus, .footer__link:active {
+    opacity: .75;
+}
+
+/*footer styles end*/
