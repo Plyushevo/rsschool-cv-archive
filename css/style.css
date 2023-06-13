@@ -206,33 +206,42 @@ body {
 
 .home__wrapper {
     position: relative;
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 
 .home__persone {
-    position: absolute;
+    position: relative;
     top: 60px;
     left: 50%;
     transform: translate(-50%, 0);
+    width: 560px;
 }
 
 #home__big-background-circle {
     background: rgba(255, 255, 255, 0.12);
     border-radius: 50%;
-    width: 70vh;
-    height: 70vh;
-    position: relative;
-    margin: auto;
+    width: 616px;
+    height: 616px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 159px;
+    /* margin: auto; */
 }
 
 #home__small-background-circle-css {
     position: relative;
-    left: 286px;
-    top: -100px;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%, 0);
     background: white;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
