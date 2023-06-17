@@ -185,11 +185,11 @@ body {
     position: relative;
 } 
 
-#home__small-background-circle-css img {
+ img {
     margin: auto;
     display: block;
-    
 }
+
 
 .wrapper {
     max-width: 1200px;
@@ -238,22 +238,43 @@ body {
     left: 50%;
 }
 
-#home__small-background-circle-css {
+#home__small-background-circle-css, #home__big-background-circle-html, #home__big-background-circle-vue, #home__big-background-circle-js  {
     position: absolute;
     background: white;
     border-radius: 50%;
+    display: flex;
+}
+
+#home__small-background-circle-css {
     width: 100px;
     height: 100px;
     top: 240px;
     left: -120px;
-    display: flex;
 }
 
+#home__big-background-circle-html {
+    width: 80px;
+    height: 80px;
+    top: 70px;
+    left: 500px;
+}
 
+#home__big-background-circle-vue {
+    width: 90px;
+    height: 90px;
+    top: 280px;
+    left: 580px;
+}
+#home__big-background-circle-vue img {
+    width: 60%;
+}
 
-
-
-
+#home__big-background-circle-js {
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: -100px;
+}
 
 
 
