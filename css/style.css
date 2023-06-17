@@ -185,6 +185,12 @@ body {
     position: relative;
 } 
 
+#home__small-background-circle-css img {
+    margin: auto;
+    display: block;
+    
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -195,7 +201,6 @@ body {
 /* home styles starts*/
 
 .home {
-    position: relative;
     min-height: 1400px;
     width: 100%;
     left: 0px;
@@ -206,33 +211,42 @@ body {
 
 .home__wrapper {
     position: relative;
-    padding-top: 120px;
+    display: block;
 }
 
 .home__persone {
     position: absolute;
-    top: 60px;
+    min-height: 1070px;
+    translate: -50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    top: 87px;
+
+}
+
+.home__persone-div {
+    position: relative;
 }
 
 #home__big-background-circle {
     background: rgba(255, 255, 255, 0.12);
     border-radius: 50%;
-    width: 70vh;
-    height: 70vh;
-    position: relative;
-    margin: auto;
+    width: 616px;
+    height: 616px;
+    position: absolute;
+    translate: -50%;
+    top: 159px;
+    left: 50%;
 }
 
 #home__small-background-circle-css {
-    position: relative;
-    left: 286px;
-    top: -100px;
+    position: absolute;
     background: white;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    top: 240px;
+    left: -120px;
+    display: flex;
 }
 
 
